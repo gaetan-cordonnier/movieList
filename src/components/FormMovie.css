@@ -1,0 +1,62 @@
+.FormMovie {
+  width: 500px;
+  height: 363.5px;
+  margin: 0 auto;
+  text-align: left;
+  background-image: url("https://image.freepik.com/free-vector/cinema-room-background_1017-8728.jpg");
+  background-repeat: no-repeat;
+  background-size: 540px;
+  color: rgb(141, 49, 46);
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+}
+
+fieldset {
+  font-family: sans-serif;
+  font-size: 12px;
+  border: 1px solid rgb(141, 49, 46);
+  border-radius: 5px;
+}
+
+.FormMovie .form-data {
+  display: flex;
+  justify-content: center;
+  margin: 10px 30px 0px 20px;
+  color: rgb(85, 52, 0);
+}
+
+.FormMovie .form-data label {
+  display: inline-block;
+  margin-right: 10px;
+  padding-top: 7px;
+  text-align: right;
+  width: 80px;
+}
+
+.FormMovie .form-data input:not([type="submit"]) {
+  width: 310px;
+  opacity: 35%;
+  height: 25px;
+  border-radius: 5px;
+  border-style: none;
+  outline: none;
+  padding-left: 6px;
+  border: 1px solid rgb(187, 150, 90);
+}
+
+#comment {
+  height: 110px;
+  vertical-align: top;
+}
+
+#button {
+  margin-top: 10px;
+  border-style: none;
+  border: 1px solid rgb(206, 126, 123);
+  background-color: rgb(141, 49, 46);
+  color: rgb(206, 126, 123);
+  border-radius: 6px;
+}
+#button:hover {
+  color: rgb(255, 213, 151);
+}
