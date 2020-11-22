@@ -72,8 +72,8 @@ export default class FormMovie extends React.Component {
                 type="textarea"
                 id="comment"
                 name="comment"
-                rows="5"
-                cols="1"
+                rows="6"
+                cols="150"
                 onChange={this.onChange}
                 value={this.state.comment}
               />
